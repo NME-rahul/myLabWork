@@ -1,0 +1,12 @@
+# coding: utf-8
+import matplotlib.pyplot as plt
+import pandas as pd
+df = pd.read_csv('/Users/rahulverma/downloads/housing.csv')
+df.head()
+ocean_proximity = df.groupby('ocean_proximity')[['median_house_value']].mean()
+plt.style.use('seaborn-whitegrid')
+ocean_proximity.plot(kind='bar', alpha=0.9)
+plt.title('Graph of Median House Value accordig to Ocean Proximity')
+plt.ylabel('median_house_value')
+plt.show()
+#%save -r /Users/rahulverma/desktop/ocaen_proximity-and-median_house_value 1-6, 8-12

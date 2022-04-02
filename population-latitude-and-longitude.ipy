@@ -1,0 +1,33 @@
+import matplotlib.pyplot as plt
+
+import numpy as np
+
+import pandas as pd
+
+df = pd.read_csv('/Users/rahulverma/downloads/housing.csv')
+
+population = np.array(df['population'])
+
+population = population[0:20640:100]
+
+latitude = np.array(df['latitude'])
+
+latitude = latitude[0:20640:100]
+
+longitude = np.array(df['longitude'])
+
+longitude = longitude[0:20640:100]
+
+plt.scatter(latitude, longitude, c=population ,s=population, cmap='RdGy', alpha=0.5)
+
+plt.clim(0, 7266)
+
+plt.xlabel('latitude')
+
+plt.ylabel('longitude')
+
+plt.title('Population by Latitude and Longitude')
+
+plt.colorbar(label='population')
+
+plt.show()

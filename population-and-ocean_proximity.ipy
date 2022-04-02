@@ -1,0 +1,11 @@
+# coding: utf-8
+import matplotlib.pyplot as plt
+import pandas as pd
+df = pd.read_csv('/Users/rahulverma/downloads/housing.csv')
+ocean_proximity = df.groupby('ocean_proximity')[['population']].sum()
+plt.style.use('seaborn-whitegrid')
+ocean_proximity.plot(kind='bar', color='orange')
+plt.title('Graph of population according to Ocean Proximity')
+plt.ylabel('population')
+plt.show()
+%save -r /Users/rahulverma/desktop/population-and-ocean_proximity 1 3-5 10-15
