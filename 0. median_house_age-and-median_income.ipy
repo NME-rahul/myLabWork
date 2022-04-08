@@ -1,0 +1,20 @@
+# coding: utf-8
+
+import matplotlib.pyplot as plt
+import pandas as pd
+df = pd.read_csv('/Users/rahulverma/downloads/housing.csv')
+plt.style.use('seaborn-whitegrid')
+import numpy as np
+median_income = np.array(df['median_income'])
+housing_median_age = np.array(df['housing_median_age'])
+x = np.arange(0, 20640, 500)
+median_income = median_income[0:20640:500]
+housing_median_age = housing_median_age[0:20640:500]
+plt.plot(x, housing_median_age, label='Hosuing_median_age', color='red')
+plt.plot(x, median_income, label='median_Income', color='green')
+plt.xlabel('X-cordinate (0:20640:500)')
+plt.ylabel('Housing_median_age, median_Income')
+plt.title('Graph between Median House age and Median Income')
+plt.legend()
+plt.show()
+%save -r /Users/rahulverma/desktop/median_house_age-and-median_income 0-3 6 14-16 18-22 25-30
