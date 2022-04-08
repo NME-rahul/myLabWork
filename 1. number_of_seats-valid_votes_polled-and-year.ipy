@@ -1,0 +1,22 @@
+# coding: utf-8
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+df = pd.read_csv('/Users/rahulverma/downloads/datafile.csv')
+df.head(15)
+year = np.array(df[' Year'])
+year = year[0:14]
+number_of_seats = np.array(df['Number of electors'])
+number_of_seats = number_of_seats[0:14]
+valid_polled = np.array(df['Number of valid votes polled'])
+valid_polled = valid_polled[0:14]
+plt.style.use('seaborn-whitegrid')
+plt.bar(year,np.sqrt(number_of_seats), color='blue', label='Number of electors')
+plt.bar(year, np.sqrt(valid_polled), color='orange', label='Number valid votes polled')
+plt.xticks(np.array(year))
+plt.title('Graph of Number of electors and Valid votes polled in Year 2000-2013')
+plt.xlabel('Year')
+plt.legend()
+plt.ylabel('sqrt(y)')
+plt.show()
+%save -r /Users/rahulverma/desktop/DataHAndelingandVisualization/LabWork/2/number_of_seats-valid_votes_polled-and-year 1-11 68 70

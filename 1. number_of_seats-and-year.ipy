@@ -1,0 +1,18 @@
+# coding: utf-8
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+df = pd.read_csv('/Users/rahulverma/downloads/datafile.csv')
+year = np.array(df[' Year'])
+number_of_seats = np.array(df['Number of seats'])
+number_of_seats = number_of_seats[0:14]
+year = year[0:14]
+plt.style.use('seaborn-whitegrid')
+plt.bar(year, number_of_seats,  label='Number of seats')
+plt.title('NUmber of seats in Year  2000-2013')
+plt.ylabel('Number of seats')
+plt.xlabel('Year')
+plt.xticks(year)
+plt.legend()
+plt.show()
+%save -r /Users/rahulverma/desktop/DataHandelingandVisualization/LabWork/2/number_of_seats-and-year 1-9 17-23 25
