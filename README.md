@@ -8,6 +8,7 @@ group members - Rahul Verma and Bhavesh Knnani
 # Mapped data in assignment - 
 
 0
+
 . housing_median_age-median_income-and-median_house_value
 
 . median_house_age-and-median_income
@@ -20,6 +21,7 @@ group members - Rahul Verma and Bhavesh Knnani
 
 
 1
+
 . number_of_seats-and-year
 
 . number_of_seats-valid_votes_polled-and-year
