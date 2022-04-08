@@ -6,7 +6,6 @@ group members - Rahul Verma and Bhavesh Knnani
 . GitHub acc. - https://github.com/NME-rahul/
 
 # Mapped data in assignment - 
-
 0
 
 . housing_median_age-median_income-and-median_house_value
@@ -18,7 +17,6 @@ group members - Rahul Verma and Bhavesh Knnani
 . population-and-ocean_proximity
 
 . population-latitude-and-longitude
-
 
 1
 
