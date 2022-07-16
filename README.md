@@ -1,27 +1,19 @@
 # myLabWork
 
-. group-1
-group members - Rahul Verma and Bhavesh Knnani
+> . group-1
+  group members - Rahul Verma( [GitHub acc](https://github.com/NME-rahul/)) and Bhavesh Knnani
 
-. GitHub acc. - https://github.com/NME-rahul/
 
-# Mapped data in assignment - 
-0
+## Mapped data in assignment - 
 
-. housing_median_age-median_income-and-median_house_value
+###**0**
+* housing median age vs median income vs median house value
+* median house age vs median income
+* ocaen proximity vs median house value
+* population vs ocean proximity
+* population latitude vs longitude
 
-. median_house_age-and-median_income
-
-. ocaen_proximity-and-median_house_value
-
-. population-and-ocean_proximity
-
-. population-latitude-and-longitude
-
-1
-
-. number_of_seats-and-year
-
-. number_of_seats-valid_votes_polled-and-year
-
-. valid_votes-votes_polled-and-year
+###**1**
+* number of seats vs year
+* number of seats vs valid votes polled vs year
+* valid votes votes vs polled vs year
