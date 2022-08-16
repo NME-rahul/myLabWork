@@ -1,7 +1,7 @@
 # myLabWork
 
 >  **group-1**  
-  _group members_ - Rahul Verma([GitHub acc](https://github.com/NME-rahul/))  and Bhavesh Knnani
+  _group members_ - Rahul Verma([GitHub acc](https://github.com/NME-rahul/))
 
 
 ## Mapped data in assignment - 
