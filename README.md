@@ -7,6 +7,7 @@
 ## Mapped data in assignment - 
 
 <details>
+  
 * housing median age vs median income vs median house value
   
 * median house age vs median income
@@ -21,6 +22,7 @@
 </details>
 
 <details>
+  
 * number of seats vs year
   
 * number of seats vs valid votes polled vs year
