@@ -17,7 +17,7 @@
   
 * population latitude vs longitude
   
-<summary> ### **0** </summary>
+<summary> 0 </summary>
 </details>
 
 <details>
@@ -27,5 +27,5 @@
   
 * valid votes votes vs polled vs year
   
-<summary> ### **1** </summary>
+<summary> 1 </summary>
 </details>
